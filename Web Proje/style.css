@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Merriweather', serif;
+}
+.top-navbar{    
+    display: flex;
+    justify-content: space-between;
+}
+.top-navbar p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.top-navbar .icons{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.top-navbar a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.top-navbar a img{
+    margin-bottom: 3px;
+}
+.top-navbar a:hover{
+    color: black;
+}
+.navbar{
+    background-color: rgb(30, 30, 30);
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 3px;
+    margin-right: 3px;
+}
+.navbar a:hover{
+    color: rgb(248, 248, 248);
+}
+.navbar .Baslik{
+    text-align: center;
+    margin: 8px;
+}
+.navbar .Giris{
+    margin: 8px;
+}
+
+.cerceve{
+    background-color: rgb(192, 192, 191);
+    width: 100%;
+}
+.cerceve .bosluk{
+    margin: auto;
+    width: 80%;
+}
+
+.cerceve h1{
+    font-size:18pt; 
+    color: black;
+}
+
+.cerceve .bilgi {
+    border-radius: 15px;
+    background-color:rgb(30, 30, 30);
+    color:rgb(255, 255, 255);
+    margin: auto;
+    padding:10px;
+    width: 80%;  
+    overflow:auto; 
+}
+.cerceve .bilgi1 {
+    border-radius: 15px;
+    background-color:rgb(30, 30, 30);
+    color:rgb(255, 255, 255);
+    margin: auto;
+    padding:10px;
+    width: 90%;  
+    overflow:auto; 
+}
+.cerceve .row .bilgi {
+    border-radius: 15px;
+    background-color:rgb(30, 30, 30);
+    color:rgb(255, 255, 255);
+    padding:10px;
+    width: 40%;  
+    overflow:auto; 
+}
+.cerceve .row .bilgi1 {
+    border-radius: 15px;
+    background-color:rgb(30, 30, 30);
+    color:rgb(255, 255, 255);
+    padding:10px;
+    width: 10%;  
+    overflow:auto; 
+}
+.cerceve .ozel-row{
+    background-color:rgb(30, 30, 30)
+}
+
+.cerceve .bilgi p a{
+
+    color: red;
+}
+.cerceve .bilgi1 p a{
+
+    color: red;
+}
+
+
+.linkler{
+    background-color:rgb(30, 30, 30);
+    
+    height: 100px;
+}
+.linkler a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+}
+.linkler a:hover{
+    color: rgb(248, 248, 248);
+}
+.linkler p{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    margin: 10px;
+}
+.slider{
+    position: relative;
+    width: 1000px;
+    height: 520px;
+    border: 1px solid rgb(192, 192, 191);
+    margin: auto;
+    overflow: auto;
+}
+.slider-content{
+    position: absolute;
+    width: 1000%;
+    left: 0;
+}
+.slider-item{
+    width: 10%;
+    float: left;
+
+}
+.slidelar{
+    background-color: rgb(192, 192, 191);
+}
+
+.arkaplan {
+    
+    height: 85vh;
+    background-color: rgb(192, 192, 191);
+}
+.arkaplan .dolgu{
+    align-items: center;
+    width: 20%; 
+    margin: auto;
+    
+    color:rgb(255, 255, 255);
+    border: 15px ;
+}
+
+.dolgu h2{
+
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#input{
+    
+    width: 19rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    color: black;
+}
+#input2{
+    
+    width: 19rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    color: black;
+}
+#giris{
+    width: 19rem;
+    height: 2rem;
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+}
+#reset{
+    width:  19rem;
+    height: 2rem;
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+}
+.dolgu p{
+    
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+#gizli{
+    font-size: 0;
+}
+
+
+
+
